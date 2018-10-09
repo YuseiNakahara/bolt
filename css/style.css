@@ -131,6 +131,9 @@ figure h4 {
 .galley img:nth-child(4) {
   margin-left: 0;
 }
+.galley img:nth-child(n+4) {
+  margin-bottom: 90px;
+}
 .galley img:hover {
   opacity: 1;
 }
