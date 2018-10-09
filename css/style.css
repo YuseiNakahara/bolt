@@ -9,8 +9,10 @@
   width: 100%;
   background-color: #f2f2f2;
 }
-.wrapper-inner {
-  width: 1200px;
+
+.header-inner {
+  width: 1100px;
+  margin: 0 auto;
 }
 .icon-bolt {
   margin: 15px 0 15px 100px;
@@ -44,12 +46,16 @@
   border: none;
   margin: 15px 100px 15px 0;
 }
-.header-contact-btn :focus{
+.header-contact-btn:focus{
   outline: none;
 }
 
 main{
   background-color: #f2f2f2;
+}
+.main-inner {
+  width: 1100px;
+  margin: 0 auto;
 }
 main h1 {
   text-align: center;
@@ -68,6 +74,10 @@ main h2 {
 
 article {
   background-color: #74cfae;
+}
+.article-inner {
+  width: 1100px;
+  margin: 0 auto;
 }
 section h3 {
   font-size: 24px;
@@ -88,6 +98,13 @@ section p {
   margin: 50px 150px -3px 200px;
 }
 
+.figure {
+  background-color: #f2f2f2;
+}
+.figure-inner {
+  width: 1100px;
+  margin: 0 auto;
+}
 figure h4 {
   font-size: 24px;
   color: #333;
@@ -95,21 +112,57 @@ figure h4 {
   padding-top: 60px;
   padding-bottom: 40px;
 }
-.galley img {
-  padding-left: 100px;
-  padding-bottom: 80px;
+.galley {
+  box-sizing: border-box;
+  font-size: 0;
 }
-.galley-bottom img {
-  padding-left: 100px;
-  padding-bottom: 90px;
+.galley img {
+  margin-bottom: 80px;
+  margin-left: 100px;
+  opacity: 0.7;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.galley img:first-child {
+  margin-left: 0;
+}
+.galley img:nth-child(4) {
+  margin-left: 0;
+}
+.galley img:hover {
+  opacity: 1;
 }
 
+.figure-content {
+  background-color: #f2f2f2;
+}
+.figure-content-inner {
+  width: 1100px;
+  margin: 0 auto;
+}
 .skills {
   background-color: #4e4e4e;
   padding-bottom: 20px;
 }
-.skills img {
+.skills-inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+.skills img:hover {
+  opacity: 1;
+}
+.skills-circle img {
   margin-left: 180px;
+  opacity: 0.7;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.skills-circle :first-child {
+  margin-left: 0;
 }
 .skills h5 {
   padding: 70px 0;
@@ -120,32 +173,35 @@ figure h4 {
 .text {
   background-color: #4e4e4e;
   padding-bottom: 100px;
+  text-align: center;
+}
+.text-inner {
+  width: 1100px;
+  margin: 0 auto;
+  display: inline-block;
+}
+.text-inner p {
+  margin-left: 240px;
+}
+.text-inner p:first-child {
+  margin-left: 0;
 }
 .text p{
   float: left;
   color: white;
   font-size: 16px;
 }
-.java {
-  margin-left: 200px;
-}
-.boost {
-  margin-left: 235px;
-}
-.word {
-  margin-left: 230px;
-}
-.photo {
-  margin-left: 228px;
-}
+
 .figure-content {
-  margin-left: 150px;
   margin-bottom: 70px;
 }
 figure p {
   font-size: 20px;
   text-align: center;
+}
+.figure-text {
   float: left;
+  margin-left: 40px;
 }
 .figure-content-btn {
   padding: 14px 20px;
@@ -155,15 +211,22 @@ figure p {
   cursor: pointer;
   font-size: 12px;
   border: none;
-  float: right;
-  margin-right: 350px;
   margin-left: 90px;
 }
-
+.figure-content-out {
+  float: right;
+}
+.figure-content-btn:focus {
+  outline: none;
+}
 .item-icon {
   background-color: #f2f2f2;
   padding: 200px 0 200px 350px;
   transition: .0.3s;
+}
+.item-icon-inner {
+  width: 1100px;
+  margin: 0 auto;
 }
 .icon {
   font-size: 70px;
@@ -185,6 +248,10 @@ figure p {
 .footer-menu {
   background-color: #74cfae;
   padding: 20px 0 25px 0;
+}
+.footer-menu-inner {
+  width: 1100px;
+  margin: 0 auto;
 }
 .footer-text {
   text-align: right;
