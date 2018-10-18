@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="This is my portfolio site.">
+    <meta name="Keywords" content="bolt, bootstrap, portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bolt - Free Bootstrap 3 Theme</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
@@ -15,86 +18,112 @@
   <body>
     <div class="wrapper">
       <header class="header">
-        <header class="header-inner">
+        <div class="header-menu inner clearfix">
           <i class="fa fa-bolt icon-bolt"></i>
-          <div class="header-contact">
-            <button class="header-contact-btn btn-input--init" type="submit">Contact</button>
-          </div>
-        </header>
+          <a class="header-contact">
+            <div class="header-contact-btn btn-input--init" type="submit">Contact</div>
+          </a>
+        </div>
       </header>
       <main>
-        <main class="main-inner">
-          <h1>Bolt Theme</h1>
-          <h2>FREE BOOTSTRAP THEMES</h2>
+        <div class="main-menu inner">
+          <h1 clas="main-title">Bolt Theme</h1>
+          <p class="main-text">FREE BOOTSTRAP THEMES</p>
         </main>
         <article>
-          <article class="article-inner">
-            <section class="clearfix">
+          <div class="article-menu inner">
+            <section class="iphone clearfix">
               <div class="iphone-img">
                 <img src="img/iphone.png">
               </div>
-              <h3>WHAT WE CAN DO?</h3>
-              <p>
-                Lorem Ipsum is sinmply dummy text of the printing and typesetting industry. Lorem lpsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambied to make a type apecimen book.
-              </p>
+              <div class="iphone-title">
+                <div class="iphone-title-menu">
+                  <h2>WHAT WE CAN DO?</h2>
+                </div>
+                <p class="iphone-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </section>
-          </article>
+          </div>
         </article>
-        <figure class="figure">
-          <figure class="figure-inner">
-            <h4>OUR LATEST WORK</h4>
-            <div class="galley">
-              <img src="img/01.jpg" alt="iPhone">
-              <img src="img/02.jpg" alt="Golem">
-              <img src="img/03.jpg" alt="mugen">
-              <img src="img/04.jpg" alt="mas">
-              <img src="img/05.jpg" alt="earth">
-              <img src="img/06.jpg" alt="robot">
-            </div>
-            <div class="figure-content clearfix">
-              <div class="figure-content-inner">
+        <section class="section">
+          <div class="section-main inner">
+            <div class="section-menu clearfix">
+              <div class="section-title">
+                <h2>OUR LATEST WORK</h2>
+              </div>
+              <div class="galley">
+                <a class="galley-img">
+                  <img src="img/01.jpg" alt="iPhone">
+                </a>
+                <a class="galley-img">
+                  <img src="img/02.jpg" alt="Golem">
+                </a>
+                <a class="galley-img">
+                  <img src="img/03.jpg" alt="mugen">
+                </a>
+                <a class="galley-img">
+                  <img src="img/04.jpg" alt="mas">
+                </a>
+                <a class="galley-img">
+                  <img src="img/05.jpg" alt="earth">
+                </a>
+                <a class="galley-img">
+                  <img src="img/06.jpg" alt="robot">
+                </a>
+              </div>
+              <div class="figure-content clearfix">
+              <div class="figure-content inner">
                 <p class="figure-text">Lorem Ipsum is sinmply dummy text of the printing and typesetting<br> industry. Lorem lpsum has been the industry's standard dummy <br>text ever.</p>
                 <div class="figure-content-out">
-                  <button class="figure-content-btn btn-input--init" type="submit">Email Me!</button>
+                  <a class="figure-content-btn btn-input--init" type="submit">Email Me!</a>
                 </div>
               </div>
             </div>
-          </figure>
-        </figure>
-        <figure class="skills">
-          <figure class="skills-inner">
-            <h5>OUR SKILLS</h5>
-            <div class="skills-circle">
-              <img src="img/circle_01.png">
-              <img src="img/circle_02.png">
-              <img src="img/circle_03.png">
-              <img src="img/circle_04.png">
             </div>
-          </figure>
-        </figure>
-        <div class="text clearfix">
-          <div class="text-inner">
-            <p class="java">JavaScript</p>
-            <p class="boost">Bootstrap</p>
-            <p class="word">WordPress</p>
-            <p class="photo">Photoshop</p>
           </div>
-        </div>
+        </section>
+        <section class="skills">
+          <div class="skills-main inner">
+            <div class="skills-menu clearfix">
+              <h2>OUR SKILLS</h2>
+              <div class="skills-circle">
+                <figure class="skills-item">
+                  <img src="img/circle_01.png">
+                  <p class="skill">JavaScript</p>
+                </figure>
+                <figure class="skills-item">
+                  <img src="img/circle_02.png">
+                  <p class="skill">Bootstrap</p>
+                </figure>
+                <figure class="skills-item">
+                  <img src="img/circle_03.png">
+                  <p class="skill">WordPress</p>
+                </figure>
+                <figure class="skills-item">
+                  <img src="img/circle_04.png">
+                  <p class="skill">Photoshop</p>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
         <div class="item-icon">
-          <div class="item-icon-inner">
-            <i class="fa fa-facebook icon"></i>
-            <i class="fa fa-dribbble icon"></i>
-            <i class="fa fa-twitter icon"></i>
-            <i class="fa fa-envelope icon"></i>
+          <div class="item-icon-menu inner">
+            <a class="fa fa-facebook icon"></a>
+            <a class="fa fa-dribbble icon"></a>
+            <a class="fa fa-twitter icon"></a>
+            <a class="fa fa-envelope icon"></a>
           </div>
         </div>
-        <footer class="footer-menu">
-          <div class="footer-menu-inner">
+        <footer class="footer-menu inner">
+          <div class="footer-menu-main">
             <p class="footer-text">Crafted with♥by BlackTie.co.</p>
           </div>
         </footer>
       </main>
-    <script src="js/script.js"></script>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
