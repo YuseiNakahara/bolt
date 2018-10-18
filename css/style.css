@@ -40,6 +40,7 @@ a {
   top: 0px;
   left: 0px;
   width: 100%;
+  z-index: 1;
 }
 .header-contact{
   float: right;
@@ -80,7 +81,7 @@ a {
   text-align: center;
 }
 
-.article-menu {
+.article {
   background-color: #74cfae;
 }
 .article-inner {
@@ -126,6 +127,7 @@ a {
 .galley {
   box-sizing: border-box;
   font-size: 0;
+  z-index: 0;
 }
 .galley-img {
   margin-left: 100px;
