@@ -22,13 +22,12 @@ a {
 }
 
 .icon-bolt {
-  margin: 15px 0;
   font-size: 40px;
   float: left;
   color: #4e4e4e;
 }
 
-.header-main{
+.header {
   background-color: white;
   position: fixed;
   top: 0px;
@@ -36,7 +35,10 @@ a {
   width: 100%;
   z-index: 1;
 }
-.header-contact{
+.header-inner {
+  padding: 15px 0;
+}
+.header-contact {
   float: right;
   padding: 14px 12px;
   border-radius: 5px;
@@ -45,15 +47,19 @@ a {
   cursor: pointer;
   font-size: 12px;
   border: none;
-  margin: 15px 0;
 }
 
-.main-menu {
+.bolt {
+  padding-top: 71px;
+}
+.keyvisual {
   background-color: #f2f2f2;
-  padding-top: 320px;
+}
+.keyvisual-inner {
+  padding-top: 250px;
   padding-bottom: 250px;
 }
-.main-menu h1 {
+.keyvisual h1 {
   text-align: center;
   color: #74cfae;
   font-size: 90px;
@@ -66,12 +72,10 @@ a {
   text-align: center;
 }
 
-.article {
+.about {
   background-color: #74cfae;
-  padding-top: 50px;
 }
-
-.iphone {
+.about-inner {
   padding-top: 50px;
 }
 .iphone-title-menu {
@@ -93,15 +97,19 @@ a {
 .iphone-img img {
   vertical-align: top;
 }
+.iphone-title {
+  float: right;
+  width: 550px;
+}
 
-.section {
+.work {
   background-color: #f2f2f2;
 }
-.section-main-menu {
+.work-inner {
   padding-top: 60px;
   padding-bottom: 70px;
 }
-.section-title {
+.work-title {
   font-size: 24px;
   color: #333;
   text-align: center;
@@ -132,10 +140,42 @@ a {
   opacity: 1;
 }
 
+.figure-content {
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.figure-text {
+  float: left;
+  font-size: 20px;
+  text-align: center;
+  width: 550px;
+  margin-right: 90px;
+  padding-left: 159px;
+}
+.figure-content-btn {
+  padding: 14px 20px;
+  border-radius: 5px;
+  background-color: #74cfae;
+  color: #FFF;
+  font-size: 12px;
+  border: none;
+  transition: all  0.3s ease;
+}
+.figure-content-btn:hover {
+  background-color: #333;
+  transition: all  0.3s ease;
+}
+.figure-content-out {
+  float: right;
+  text-align: center;
+  padding-right: 200px;
+}
+
 .skills {
   background-color: #4e4e4e;
 }
-.skills-main {
+.skills-inner {
   padding-top: 70px;
   padding-bottom: 100px;
 }
@@ -149,8 +189,8 @@ a {
   text-align: center;
 }
 .skills-item {
-  float: left;
   margin-left: 180px;
+  display: inline-block;
 }
 .skills-item:first-child {
   margin-left: 0;
@@ -162,48 +202,16 @@ a {
   margin-top: 10px;
 }
 
-.figure-content {
-  background-color: #f2f2f2;
-  margin: 0 auto;
-  margin-top: 90px;
-}
-.figure-text {
-  float: left;
-  font-size: 20px;
-  text-align: center;
-  padding-left: 100px;
-}
-.figure-content-btn {
-  padding: 14px 20px;
-  border-radius: 5px;
-  background-color: #74cfae;
-  color: #FFF;
-  cursor: pointer;
-  font-size: 12px;
-  border: none;
-}
-.figure-content-btn:hover {
-  background-color: #333;
-  transition: 0.3s;
-}
-.figure-content-out {
-  float: right;
-  padding-right: 100px;
-}
-
 .item-icon {
-  margin: 0 auto;
   background-color: #f2f2f2;
-  transition: .0.3s;
-  padding: 200px 0;
   text-align: center;
 }
-.item-icon-menu {
-  display: table;
+.item-icon-inner {
   vertical-align: middle;
+  padding: 200px 0;
 }
 .icon {
-  display: table-cell;
+  display: inline-block;
   font-size: 70px;
   text-align: center;
   color: #74cfae;
@@ -220,8 +228,10 @@ a {
   background-color: #FFF;
 }
 
-.footer-main {
+.footer {
   background-color: #74cfae;
+}
+.footer-inner {
   padding: 20px 0 25px 0;
 }
 .footer-text {
