@@ -355,8 +355,11 @@ a {
     margin-left: 0;
     margin-bottom: 88px;
   }
-  .skills-item:nth-child(4) {
+  .skills-item:nth-child(3n+1) {
     margin-bottom: 0;
+  }
+  .skills-item:first-child {
+    margin-bottom:88px;
   }
 
   .item-icon {
