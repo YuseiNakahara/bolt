@@ -44,7 +44,6 @@ a {
   border-radius: 5px;
   background-color: #74cfae;
   color: #FFF;
-  cursor: pointer;
   font-size: 12px;
   border: none;
 }
@@ -237,4 +236,146 @@ a {
 .footer-text {
   text-align: right;
   color: #FFF;
+}
+
+
+
+@media screen and (min-width:767px) and ( max-width:1199px) {
+.inner {
+  width: 97%;
+}
+
+.iphone-img {
+  float: none;
+  width: 97%;
+  margin: 0 auto;
+}
+.iphone-title {
+  margin: 0 auto;
+  float: none;
+  margin-top: 20px;
+  width: 550px;
+}
+
+.about {
+  padding-bottom: 25px; 
+}
+
+.galley-img {
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+  text-align: center;
+}
+.galley-img:nth-child(4) {
+  margin-top: 80px;
+}
+.figure-text {
+  float: none;
+  padding-left: 0;
+  margin: 0 auto;
+}
+.figure-content-out {
+  float: none;
+  padding-right: 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.skills-item {
+  display: block;
+  margin-left: 0;
+  margin-bottom: 88px;
+}
+.skills-item:last-child {
+  margin-bottom: 0;
+}
+}
+
+
+@media screen and ( max-width:766px) { 
+.inner {
+  width: 97%;
+}
+
+.keyvisual {
+  background-color: #f2f2f2;
+  padding-top: 160px;
+  padding-bottom: 130px;
+}
+
+.iphone-img {
+  float: none;
+  width: 97%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.iphone-title {
+  width: 100%;
+}
+.galley-img {
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.about {
+  padding-bottom: 25px;
+}
+
+.galley-img:nth-child(4) {
+  margin-top: 80px;
+}
+
+.figure-text {
+  float: none;
+  padding-left: 0;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.figure-content {
+  margin-top: 80px;
+}
+.figure-content-out {
+  float: none;
+  padding-right: 0;
+}
+.skills-item {
+  display: block;
+  margin-left: 0;
+  margin-bottom: 88px;
+}
+.skills-item:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.item-icon {
+  padding: 50px 0;
+}
+.item-icon-inner {
+  padding: 0;
+}
+.icon {
+  width: 100%;
+  display: block;
+}
+
+.header-contact {
+  display: none;
+}
+.humberger {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  float: right;
+}
+.humberger-menu {
+  border: 1px solid #ddd;
+  width: 15px;
+  margin-top: 5px;
+}
+.humberger-menu:first-child {
+  margin-top: 0;
+}
 }
