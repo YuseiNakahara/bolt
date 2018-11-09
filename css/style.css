@@ -295,13 +295,13 @@ a {
   .skills-item:last-child {
     margin-bottom: 0;
   }
- .item-icon {
+ .item-icon-inner {
    font-size: 0;
  }
 }
 
 
-@media screen and ( max-width:766px) { 
+@media screen and ( max-width:766px) {
   .inner {
     width: 97%;
   }
